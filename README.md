@@ -26,124 +26,157 @@ Execute the programs and publish them.
 
 ## CODE
 ```
-grt.html
 <html>
 <head>
-<title>My Home Town</title>
+<title>My City</title>
 </head>
-<body bgcolor="skyblue">
+<body>
 <h1 align="center">
-<font color="purple"><b>VIRUGAMBAKKAM</b></font>
+<font color="red"><b>Perungalathur</b></font>
 </h1>
 <h3 align="center">
-<font color="blue"><b>GRT</b></font>
+<font color="blue"><b>Iniya E (212224230096)</b></font>
 </h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-  GRT Jewellers, officially known as G.R. Thanga Maligai, is a renowned jewellery brand headquartered in Chennai, Tamil Nadu. Established in 1964 by Shri G. Rajendran, it began as a modest store in T. Nagar and has grown into one of India's most trusted jewellery houses, celebrated for its commitment to purity, craftsmanship, and customer satisfaction. ​
-</p>
+<center>
+<img src="map.png.png" usemap="#MyCity" height="610" width="1450">
+<map name="MyCity">
+<area shape="rect" coords="700,250,850,400" href="home.html" title="My Home Town">
+<area shape="circle" coords="570,230,45" href="temple.html" title="Shri Vishnu Temple">
+<area shape="rect" coords="640,200,30" href="place.html" title="Mudichur">
+
+</map>
+</center>
 </body>
 </html>
 
-mall.html
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Home Town</title>
+  <meta charset="UTF-8">
+  <title>My Home Town</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Georgia, serif;
+      margin: 20px;
+    }
+    h1, h3 {
+      text-align: center;
+    }
+    h1 {
+      color: red;
+    }
+    h3 {
+      color: blue;
+    }
+    .description {
+      text-align: justify;
+      font-size: 18px;
+      color: red;
+    }
+  </style>
 </head>
-<body bgcolor="white">
-<h1 align="center">
-<font color="cyan"><b>VADAPALANI</b></font>
-</h1>
-<h3 align="center">
-<font color="black"><b>NEXUS VIJAYA MALL</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-    Nexus Vijaya Mall, located in Vadapalani, Chennai, is a prominent shopping and entertainment destination developed by the Prestige Group. Spanning approximately 650,000 square feet, the mall houses over 100 retail outlets, including both international and local brands like Lifestyle, Max, Westside, RmKV, and Spar Hypermarket. 
-</p>
+<body>
+  <h1>Perungalathur</h1>
+  <h3>Home Town</h3>
+  <p class="description">
+    Perungalathur is a neighborhood in the city of Tambaram, South Chennai, 
+    situated within the Chennai Metropolitan Area, Tamil Nadu, India. 
+    Formerly a Town Panchayat, it was merged into the Tambaram City Municipal Corporation in November 2021.
+  </p>
 </body>
 </html>
 
-HOSPITAL.HTML
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Home Town</title>
+  <meta charset="UTF-8">
+  <title>My Home Town</title>
+  <style>
+    body {
+      background-color: pink;
+      font-family: Georgia, serif;
+      margin: 20px;
+    }
+    h1, h3 {
+      text-align: center;
+    }
+    h1 {
+      color: red;
+    }
+    h3 {
+      color: blue;
+    }
+    .description {
+      text-align: justify;
+      font-size: 18px;
+      color: red;
+    }
+  </style>
 </head>
-<body bgcolor="pink">
-<h1 align="center">
-<font color="purple"><b>VIRUGAMBAKKAM</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>global hearing aid centre</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
- Global Hearing Aid Centre is a specialized hearing clinic in Chennai, dedicated to providing personalized care for individuals with hearing impairments. Their team of certified audiologists offers comprehensive services, including hearing evaluations, rehabilitation treatments, hearing device provision, and counseling. </p>
+<body>
+  <h1>Perungalathur</h1>
+  <h3>Shri Vishnu Temple - Devotional Centre</h3>
+  <p class="description">
+    The Shri Vishnu temple in Perungalathur, specifically the Srinivasa Perumal Temple, 
+    is dedicated to Sri Vishnu as Srinivasa Perumal and his consort, Padmavathi Thayar.
+    It's located on Kamaraja High Road, near the Perungalathur railway station, says Green Message.
+    The temple is a popular place of worship for the local community. 
+    
+  </p>
 </body>
 </html>
 
-park.html
 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>My Home Town</title>
+  <meta charset="UTF-8">
+  <title>My Home Town</title>
+  <style>
+    body {
+      background-color: rgb(137, 176, 137);
+      font-family: Georgia, serif;
+      margin: 20px;
+    }
+    h1, h3 {
+      text-align: center;
+    }
+    h1 {
+      color: rgb(60, 0, 255);
+    }
+    h3 {
+      color: rgb(255, 242, 0);
+    }
+    .description {
+      text-align: justify;
+      font-size: 18px;
+      color: red;
+    }
+  </style>
 </head>
-<body bgcolor="beige">
-<h1 align="center">
-<font color="purple"><b>VIRUGAMBAKKAM</b></font>
-</h1>
-<h3 align="center">
-<font color="blue"><b>TAISHA PARK</b></font>
-</h3>
-<hr size="3" color="white">
-<p align="justify">
-<font face="Georgia" size="5">
-    Taisha Park, located in Virugambakkam, Chennai, is a well-maintained public park situated near the TAISHA (Tamil Nadu All India Service Housing Association) complex, home to many IAS and IPS officers. The park offers various amenities, including a fountain with a light show, rest areas, a tennis court, and a tiled walking path, making it a popular spot for residents of all ages. </p>
+<body>
+  <h1>Perungalathur</h1>
+  <h3>Mudichur</h3>
+  <p class="description">
+    The Mudichur village is located in Tambaram taluka of Kancheepuram in Tamil Nadu, India.
+    The census code of this vill is 629363.
+    The total geographical area of Mudichur village is 343.13 Hectares / 3.43 KM2. 
+    The nearest police station is located in Tambaram tahsil.
+    
+  </p>
 </body>
 </html>
 
-temple.html
 
-<html>
-<head>
-<title>My Home Town</title>
-</head>
-<body bgcolor="black">
-<h1 align="center">
-<font color="white"><b>VADAPALANI</b></font>
-</h1>
-<h3 align="center">
-<font color="white"><b>Murugar Temple</b></font>
-</h3>
-<hr size="3" color="red">
-<p align="justify">
-<font face="Georgia" size="5 " font color="white">
-    The Vadapalani Murugan Temple is a popular Hindu temple located in Chennai, Tamil Nadu. Dedicated to Lord Murugan,it is one of the most frequented temples in the city, known for its vibrant architecture and spiritual significance.The temple is especially famous for fulfilling devotees’ wishes, particularly regarding marriage and career.
-</p>
-</body>
-</html>
 ```
 
-
 ## OUTPUT
-
-![Screenshot 2025-04-24 004343](https://github.com/user-attachments/assets/fedf20f4-e8f4-43f4-b710-d8598c4eed20)
-
-![Screenshot 2025-04-24 004426](https://github.com/user-attachments/assets/e78b4df0-d955-4f99-a692-30ad77841ca3)
-
-![Screenshot 2025-04-24 004437](https://github.com/user-attachments/assets/84281ed5-88d3-4b0f-9f1a-592d2721e755)
-
-![Screenshot 2025-04-24 004449](https://github.com/user-attachments/assets/43602041-a113-454f-9752-9972a34b98aa)
-
-![Screenshot 2025-04-24 004543](https://github.com/user-attachments/assets/bfda2ae8-0420-43dd-aa0e-1edc4fd4e6ad)
-
-![Screenshot 2025-04-24 004551](https://github.com/user-attachments/assets/1024c2b9-145a-448c-adaa-db9a76be1bfc)
-
+![alt text](1.png)
+![alt text](2.png)
+![alt text](3.png)
+![alt text](4.png)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
